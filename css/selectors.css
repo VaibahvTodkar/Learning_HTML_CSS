@@ -1,0 +1,25 @@
+/* universal selector */
+*{
+    /* color: red; */
+}
+
+/* class selector */
+.para{
+    font-size: 30px;
+    color: aquamarine;
+}
+
+.heading{
+    font-size: 40px;
+    color: blue;
+}
+
+/* id selector */
+#hello{
+    background-color: yellow;
+}
+
+/* child selector */
+ul>li{
+    list-style-type: square;
+}
