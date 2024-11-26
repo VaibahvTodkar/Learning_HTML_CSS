@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imeages</title>
+    <style>
+        body{
+            /* background-color: aqua; */
+            /* opacity: 0.1; */
+            /* align-items: center;
+            margin-top: auto;
+            margin-left: auto; */
+            
+        }
+        .imeage-wrapper{
+            width: 500px;
+            height: 300px;
+            overflow: hidden;
+            border: 1px solid red;
+            position: relative;
+        }
+        .innr-img{
+            width: 100%;
+            height: 100%;
+            transition: 15s;
+            opacity: 0.9;
+            &:hover{
+                transform: scale(15);
+            }
+        }
+
+        /* .innr-img:hower{
+            transform: scale(12);
+        } */
+    </style>
+</head>
+<body>
+    <div class="imeage-wrapper">
+        <img class="innr-img" src="imeages/cat.jpg" alt="catr" >
+    </div>
+</body>
+</html>
